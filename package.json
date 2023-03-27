@@ -1,7 +1,7 @@
 {
   "name": "to-do-list",
   "private": true,
-  "homepage": "https://todo.github.io/Todo",
+  "homepage": "https://todo.github.io/Todo-app",
   "version": "0.1.0",
   "dependencies": {
     "@emotion/react": "^11.10.5",
