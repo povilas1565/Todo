@@ -1,0 +1,18 @@
+@import url(./css/reset.css);
+@import url(./component/form/form.css);
+@import url(./component/header/header.css);
+@import url(./component/profile/profile.css);
+@import url(./component/folder/folder.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  overflow: hidden;
+}
+body, button, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+}

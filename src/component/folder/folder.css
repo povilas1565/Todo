@@ -1,0 +1,143 @@
+.catalog-item{
+    width: 49%;
+    padding: 10px;
+    border-radius: 3px;
+    background: #888;
+    margin-bottom: 10px;
+    font-size: 14px;
+    position: relative;
+}
+.add-catalog{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+.catalog-item a{
+    color: #fff !important;
+}
+.catalog-item:hover .remove{
+    opacity: 0.3;
+    pointer-events: all;
+}
+.content-none{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+}
+.content-none h2{
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+.addlists{
+    width: 100%;
+    margin-top: 50px;
+}
+.addlists a{
+    text-align: center;
+}
+.content-none p{
+    color: #c8bebe;
+}
+.remove{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+.remove svg{
+    font-size: 13px;
+}
+.count{
+    width: fit-content;
+    font-size: 13px;
+    display: flex;
+    margin-left: auto;
+}
+.count span{
+    margin-right: 10px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.task-color{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.task-color .list li{
+    display: flex;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+.task-color .list li.active{
+    border: 1px solid red;
+}
+.add-list{
+    bottom: 15px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(25, 125, 255);
+}
+.add-list svg{
+    font-size: 16px;
+}
+.task-form{
+    margin-top: 70px;
+}
+.task-input{
+    display: flex;
+    flex-direction: column;
+}
+.form-group__text{
+    font-size: 13px;
+    margin-bottom: 8px;
+    display: block;
+}
+.task-input input, .task-input textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    color: #00000048;
+    background: #00000005;
+    border: 1px solid #EBF0FF;
+    font-size: 12px;
+}
+.task-input textarea{
+    height: 41px;
+}
+.task-input input::placeholder{
+    color: #0000;
+}
+.task-input{
+    margin-bottom: 15px;
+}
+.date-control{
+    margin-bottom: 15px;
+}
+.tasklists{
+    overflow: auto;
+    min-height: 65px;
+    max-height: 95vh;
+}
+.date-control input{
+    height: 6px;
+    font-size: 14px;
+    color: #00000048;
+    background: #00000005;
+    border: 1px solid #EBF0FF;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 10px 14px !important;
+    font-size: 13px !important;
+    font-family: 'Roboto', sans-serif !important;
+}

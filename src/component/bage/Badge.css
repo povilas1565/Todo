@@ -1,0 +1,16 @@
+.task-color__items{
+    display: flex;
+}
+.badge{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: transparent;
+    border: 1px solid transparent;
+    display: block;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.badge.active{
+    border: 1px solid #000;
+}
